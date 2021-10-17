@@ -1,2 +1,1 @@
-# tindino
-A website made using Bootstrap5
+TinDog Starting Files
