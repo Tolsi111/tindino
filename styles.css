@@ -1,0 +1,175 @@
+#title {
+  background-color: #D9CAB3;
+  color: #212121;
+}
+
+/* #title .container-fluid{
+
+} */
+.title-img {
+  mix-blend-mode: multiply;
+  width: 18%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 25%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.4;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* NAVBAR STYLING */
+.navbar-dark .navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #212121;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #212121;
+  padding: 0 15px 0 15px;
+}
+
+.navbar-dark {
+  padding-bottom: 5%;
+  padding-left: 0;
+}
+
+/* BUTTONS */
+.download-button {
+  margin: 5% 5% 0 0;
+}
+
+/* FEATURES SECTION */
+#features {
+  background-color: #F6F6F6;
+  color: #212121;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-col {
+  padding: 10% 25px 10% 25px;
+}
+
+.fas:hover {
+  color: #D9CAB3;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  background-color: #D9CAB3;
+  color: #212121;
+  text-align: center;
+}
+
+.carousel-inner {
+  min-height: 300px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+.testimonial-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #D9CAB3;
+  text-align: center;
+  padding: 5% 0 5% 0;
+}
+
+.press-img {
+  width: 8%;
+  margin: 0 20px 0 20px;
+}
+
+/* PRICING SECTION */
+#pricing {
+  background-color: #F6F6F6;
+  color: #212121;
+  text-align: center;
+  padding: 90px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1220px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 250px;
+    margin: 20px 0 0 30px;
+  }
+}
+
+@media (max-width:752px) {
+  .title-img {
+    margin: 20px 0 0 0;
+  }
+}
+
+#cta {
+  text-align: center;
+  background-color: #D9CAB3;
+}
+
+#footer {
+  padding-top: 20px;
+  margin-bottom: 0;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+
+.footer-p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.contact-fab {
+  color: #212121;
+  margin: 0 10px 0 10px;
+}
+
+.fab:hover {
+  color: #D9CAB3;
+}
+
+.fa-apple {
+  color: #fff;
+}
+
+.fa-envelope {
+  margin: 0 10px 0 10px;
+  color: #212121;
+}
+
+.download-button-cta{
+  margin: 5% 1% 0 1%;
+}
